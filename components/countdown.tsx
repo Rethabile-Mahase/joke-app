@@ -125,6 +125,9 @@ function PlayedYourselfDisplay() {
         <p className="text-center text-muted-foreground">
           This makes two people that have wasted their time on this project. You and I
         </p>
+        <p className="text-center text-muted-foreground">
+          Get a life, seriously. And if you have one, get a better one. Maybe go outside, meet some people, do something productive with your time instead of playing around with this dumb project. Just saying. Or you can send me money. That works
+        </p>
       </div>
     </main>
   )

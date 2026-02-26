@@ -1,4 +1,4 @@
-# Use the official Node.js 18 image as the base image
+# Use the official Node.js 20 image as the base image
 FROM node:20-alpine
 
 # Set the working directory in the container
@@ -18,6 +18,9 @@ EXPOSE 3000
 
 # Set the environment variable for production
 ENV NODE_ENV=production
+
+# Build the Next.js app
+RUN npm run build
 
 # Start the application
 CMD ["npm", "run", "start"]
